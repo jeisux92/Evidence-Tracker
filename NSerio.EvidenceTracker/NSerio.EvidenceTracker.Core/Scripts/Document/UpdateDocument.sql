@@ -1,0 +1,4 @@
+﻿UPDATE DOC
+SET DOC.Evidence = {0}
+FROM EDDSDBO.Document DOC
+WHERE DOC.ArtifactID = {1}
